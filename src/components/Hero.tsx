@@ -57,11 +57,11 @@ const Hero = () => {
             </div>
             <div>
               <div className="text-3xl font-bold text-blue-600">50+</div>
-              <div className="text-gray-600">Ad Frameworks</div>
+              <div className="text-gray-600">E-Com Products</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-blue-600">24/7</div>
-              <div className="text-gray-600">AI Assistant</div>
+              <div className="text-gray-600">Assistant</div>
             </div>
           </div>
         </div>
