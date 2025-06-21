@@ -38,7 +38,7 @@ const Hero = () => {
               size="lg" 
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
             >
-              Register Now
+              Generate Now
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <button className="text-gray-600 hover:text-gray-900 font-medium text-lg underline-offset-4 hover:underline transition-colors">
