@@ -6,7 +6,7 @@ const Benefits = () => {
   const benefits = [
     "Reduce ad creation time from hours to minutes",
     "Generate high-quality product photos with AI models",
-    "Access 50+ proven advertising frameworks",
+    "Create compelling copy that converts visitors to customers",
     "Seamless integration with your existing workflow",
     "Professional-grade assets without expensive photoshoots",
     "Scale your advertising efforts without scaling your team"
