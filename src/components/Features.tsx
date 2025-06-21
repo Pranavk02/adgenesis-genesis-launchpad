@@ -20,7 +20,7 @@ const Features = () => {
     {
       icon: Sparkles,
       title: "AI Ad Frameworks",
-      description: "Choose from 50+ proven advertising frameworks powered by AI to create high-converting ad copy.",
+      description: "Choose from proven advertising frameworks powered by AI to create high-converting ad copy.",
       color: "text-purple-600 bg-purple-100"
     },
     {
