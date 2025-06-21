@@ -45,11 +45,11 @@ const Benefits = () => {
               <div className="space-y-4">
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <span className="font-medium">Setup Time</span>
-                  <span className="text-green-600 font-bold">< 5 minutes</span>
+                  <span className="text-green-600 font-bold">&lt; 5 minutes</span>
                 </div>
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <span className="font-medium">First Ad Generated</span>
-                  <span className="text-green-600 font-bold">< 2 minutes</span>
+                  <span className="text-green-600 font-bold">&lt; 2 minutes</span>
                 </div>
                 <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                   <span className="font-medium">ROI Improvement</span>
