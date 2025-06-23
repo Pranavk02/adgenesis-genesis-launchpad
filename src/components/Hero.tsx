@@ -63,6 +63,9 @@ const Hero = () => {
               <div className="text-3xl font-bold text-blue-600">24/7</div>
               <div className="text-gray-600">Assistant</div>
             </div>
+            <div className="text-blue-200 text-sm">
+            ✨ No credit card required • ⚡ Setup in under 5 minutes • 🚀 Start generating ads immediately
+          </div>
           </div>
         </div>
       </div>
