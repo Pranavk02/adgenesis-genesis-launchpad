@@ -45,6 +45,10 @@ const Hero = () => {
               Watch Demo
             </button>
           </div>
+
+          <div className="text-blue-200 text-sm">
+            ✨ No credit card required • ⚡ Setup in under 5 minutes • 🚀 Start generating ads immediately
+          </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto text-center">
             <div>
@@ -63,9 +67,6 @@ const Hero = () => {
               <div className="text-3xl font-bold text-blue-600">24/7</div>
               <div className="text-gray-600">Assistant</div>
             </div>
-            <div className="text-blue-200 text-sm">
-            ✨ No credit card required • ⚡ Setup in under 5 minutes • 🚀 Start generating ads immediately
-          </div>
           </div>
         </div>
       </div>
