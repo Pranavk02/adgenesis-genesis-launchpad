@@ -8,6 +8,10 @@ const Hero = () => {
     window.open("https://forms.google.com/", "_blank");
   };
 
+  const handleWatchDemo = () => {
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+  };
+
   return (
     <section className="relative flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 overflow-hidden py-[80px]">
       {/* Background decorative elements */}
@@ -41,7 +45,10 @@ const Hero = () => {
               Generate Now
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <button className="text-gray-600 hover:text-gray-900 font-medium text-lg underline-offset-4 hover:underline transition-colors">
+            <button 
+              onClick={handleWatchDemo}
+              className="text-gray-600 hover:text-gray-900 font-medium text-lg underline-offset-4 hover:underline transition-colors"
+            >
               Watch Demo
             </button>
           </div>
