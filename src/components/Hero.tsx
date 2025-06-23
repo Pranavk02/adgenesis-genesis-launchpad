@@ -47,8 +47,7 @@ const Hero = () => {
           </div>
 
           <div className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            <p>✨ No credit card required ⚡ Setup in under 5 minutes <br>
-            🚀 Start generating ads immediately</p>
+            ✨ No credit card required ⚡ Setup in under 5 minutes<br>🚀 Start generating ads immediately
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto text-center">
