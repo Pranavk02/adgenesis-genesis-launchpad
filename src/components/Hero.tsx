@@ -46,7 +46,7 @@ const Hero = () => {
             </button>
           </div>
 
-          <div className="text-blue-200 text-sm">
+          <div className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
             ✨ No credit card required • ⚡ Setup in under 5 minutes • 🚀 Start generating ads immediately
           </div>
           
