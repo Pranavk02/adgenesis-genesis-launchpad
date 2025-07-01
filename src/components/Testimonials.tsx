@@ -11,7 +11,8 @@ const Testimonials = () => {
       company: "Fashion Forward",
       content: "AdGenesis reduced our ad creation time by 90%. We're now able to test 10x more creative variations and our ROAS has improved dramatically.",
       rating: 5,
-      avatar: "SC"
+      avatar: "SC",
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Michael Rodriguez",
@@ -19,7 +20,8 @@ const Testimonials = () => {
       company: "TechGear Pro",
       content: "The AI-generated product photos are incredible. We saved thousands on photoshoots and can now create assets for our entire catalog in hours.",
       rating: 5,
-      avatar: "MR"
+      avatar: "MR",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=400&fit=crop&crop=face"
     },
     {
       name: "Emily Thompson",
@@ -59,9 +61,17 @@ const Testimonials = () => {
                 </p>
                 
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
-                    {testimonial.avatar}
-                  </div>
+                  {testimonial.image ? (
+                    <img 
+                      src={testimonial.image} 
+                      alt={testimonial.name}
+                      className="w-12 h-12 rounded-full object-cover mr-4"
+                    />
+                  ) : (
+                    <div className={`w-12 h-12 ${index === 2 ? 'bg-gradient-to-br from-gray-400 to-gray-500' : 'bg-gradient-to-br from-blue-500 to-purple-600'} rounded-full flex items-center justify-center text-white font-bold mr-4`}>
+                      {testimonial.avatar}
+                    </div>
+                  )}
                   <div>
                     <div className="font-semibold text-gray-900">{testimonial.name}</div>
                     <div className="text-gray-600">{testimonial.role}</div>
